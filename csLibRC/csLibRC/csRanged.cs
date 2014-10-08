@@ -48,7 +48,7 @@ namespace RadioactiveConversions
             set { _magsize = value; }
         }
 
-        public List<string> _mods = new List<string>();
+        public List<string> mods = new List<string>();
 
         private int _modCap;
 
