@@ -48,7 +48,7 @@ namespace RadioactiveConversions
             set { _magsize = value; }
         }
 
-        public List<string> _mods = new List<string>();
+        public List<string> mods = new List<string>();
 
         private int _modCap;
 
@@ -57,9 +57,23 @@ namespace RadioactiveConversions
             get { return _modCap; }
             set { _modCap = value; }
         }
+
+
+        public csRanged(string Kaliber, string Gruppe, string Modus, int RK, int Magazin, int Modlimit, string name, int preis, int vf, int zone, string typ)
+        {
+            this._cal = Kaliber;
+            this._group = Gruppe;
+            this._magsize = Magazin;
+            this._modCap = Modlimit;
+            this._modus = Modus;
+            this._rc = RK;
+            this.Name = name;
+            this.Preis = preis;
+            this.VF = vf;
+            this.Zone = zone;
+            this.Typ = typ;
         
-        
-        
+        }
         
         
         
