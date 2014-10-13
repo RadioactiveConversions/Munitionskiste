@@ -40,9 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="csArmor.cs" />
+    <Compile Include="csAttr.cs" />
     <Compile Include="csItems.cs" />
+    <Compile Include="csMed.cs" />
     <Compile Include="csMelee.cs" />
     <Compile Include="csRanged.cs" />
+    <Compile Include="csSkills.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
